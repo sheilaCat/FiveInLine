@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FiveInLine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/FiveInLine.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\FiveInLine.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP670D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FiveInLine.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\Data\ChatSocket.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\Data\ClientSocket.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\ColorBtn.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\ColorStatic.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\EndDlg.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\FiveInLine.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\FiveInLineDlg.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\GameChooseDlg.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\LoginDlg.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\PromptDlg.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\Data\SrvSocket.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\Data\Stack.cpp"
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\Logic\Statistics.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP670D.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP671E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FiveInLine.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP671E.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP671F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/FiveInLine.pdb" /machine:I386 /out:"Release/FiveInLine.exe" 
+".\Release\ChatSocket.obj"
+".\Release\ClientSocket.obj"
+".\Release\ColorBtn.obj"
+".\Release\ColorStatic.obj"
+".\Release\EndDlg.obj"
+".\Release\FiveInLine.obj"
+".\Release\FiveInLineDlg.obj"
+".\Release\GameChooseDlg.obj"
+".\Release\LoginDlg.obj"
+".\Release\MainGameDlg.obj"
+".\Release\PromptDlg.obj"
+".\Release\SrvSocket.obj"
+".\Release\Stack.obj"
+".\Release\Statistics.obj"
+".\Release\StdAfx.obj"
+".\Release\FiveInLine.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP671F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChatSocket.cpp
+ClientSocket.cpp
+ColorBtn.cpp
+ColorStatic.cpp
+EndDlg.cpp
+FiveInLine.cpp
+FiveInLineDlg.cpp
+GameChooseDlg.cpp
+LoginDlg.cpp
+MainGameDlg.cpp
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(322) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(322) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(324) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(324) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(801) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(801) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(803) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(803) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(1082) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(1082) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(1144) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(1144) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(1146) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(1146) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(1410) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\五子棋[完成版]\五子棋2.7.5\FiveInLine\UI\MainGameDlg.cpp(1410) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+PromptDlg.cpp
+SrvSocket.cpp
+Stack.cpp
+Statistics.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+FiveInLine.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

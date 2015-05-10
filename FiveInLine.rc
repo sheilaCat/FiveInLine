@@ -1,0 +1,378 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FiveInLine.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 FiveInLine"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "FiveInLine 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2013",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_FIVEINLINE_DIALOG DIALOGEX 0, 0, 589, 349
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FiveInLine"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         " ",IDC_CLOSEBTN,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,569,7,13,13,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_STARTGAME,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,179,311,248,38
+END
+
+IDD_MAINGAME_DIALOG DIALOGEX 0, 0, 567, 333
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FiveInLine"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_BUTMUSIC,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,29,165,95,32
+    CONTROL         "",IDC_BUTAGAIN,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,7,203,95,32
+    CONTROL         "",IDC_BUTREGRET,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,7,245,95,32
+    CONTROL         "",IDC_BUTEXIT,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,7,289,95,32
+    EDITTEXT        IDC_EDIT_MSG,452,314,59,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    CONTROL         "发送",IDC_BUTTON_SEND,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,519,310,41,16
+    CONTROL         "",IDC_RICHEDIT,"RICHEDIT",ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_TABSTOP,444,152,116,154
+    CONTROL         "",IDC_CANCEL,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,550,20,17,17
+END
+
+IDD_END_DIALOG DIALOG DISCARDABLE  0, 0, 195, 203
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "结束"
+FONT 10, "幼圆"
+BEGIN
+    CONTROL         "",IDOK,"Button",BS_OWNERDRAW | BS_BITMAP | WS_TABSTOP,
+                    169,7,19,14
+END
+
+IDD_PROMPT_DIALOG DIALOG DISCARDABLE  0, 0, 171, 85
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "提示"
+FONT 10, "幼圆"
+BEGIN
+    CONTROL         "同意",IDOK,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,28,71,50,14
+    CONTROL         "拒绝",IDCANCEL,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,92,71,50,14
+END
+
+IDD_LOGIN_DIALOG DIALOG DISCARDABLE  0, 0, 152, 198
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "注册"
+FONT 10, "System"
+BEGIN
+    CONTROL         "注册",IDOK,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,55,172,38,19
+    EDITTEXT        IDC_NAME,48,134,68,14,ES_AUTOHSCROLL
+    CONTROL         "IPAddress1",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,
+                    48,100,68,14
+    CONTROL         "Button1",IDC_BUTEXIT,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,128,8,24,16
+END
+
+IDD_GAMECHOOSE_DIALOG DIALOGEX 0, 0, 589, 349
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FiveInLine"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         " ",IDC_CLOSEBTN,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,569,7,13,13,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_SINGLEGAME,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,7,311,58,22
+    CONTROL         "",IDC_DOUBLEGAME,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,152,311,58,22
+    CONTROL         "",IDC_CREATE,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,313,311,58,22
+    CONTROL         "",IDC_CONNECT,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,456,311,58,22
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "FiveInLine Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FiveInLine\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FiveInLine.EXE\0"
+            VALUE "ProductName", "FiveInLine 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_FIVEINLINE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 582
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_MAINGAME_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 560
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 326
+    END
+
+    IDD_END_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_PROMPT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_LOGIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_GAMECHOOSE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 582
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAPBACKGROUND    BITMAP  DISCARDABLE     "res\\background.bmp"
+IDB_BITMAPCLOSENORMAL   BITMAP  DISCARDABLE     "res\\114.bmp"
+IDB_BITMAPDOWN          BITMAP  DISCARDABLE     "res\\116.bmp"
+IDB_BITMAPHOMEDOWN      BITMAP  DISCARDABLE     "res\\117.bmp"
+IDB_BITMAPHOMENORMAL    BITMAP  DISCARDABLE     "res\\119.bmp"
+IDB_BITMAPONDOWN        BITMAP  DISCARDABLE     "res\\123.bmp"
+IDB_BITMAPOFFDOWN       BITMAP  DISCARDABLE     "res\\125.bmp"
+IDB_BITMAPNORMAL        BITMAP  DISCARDABLE     "res\\129.bmp"
+IDB_BITMAPONNORMAL      BITMAP  DISCARDABLE     "res\\131.bmp"
+IDB_BITMAPOFFNORMAL     BITMAP  DISCARDABLE     "res\\132.bmp"
+IDB_BITMAPSTARTUP       BITMAP  DISCARDABLE     "res\\btn1.bmp"
+IDB_BITMAPSTARTDOWN     BITMAP  DISCARDABLE     "res\\btn2.bmp"
+IDB_BITMAPMUSICOFF      BITMAP  DISCARDABLE     "res\\音乐关.bmp"
+IDB_BITMAPAGAIN2        BITMAP  DISCARDABLE     "res\\重新开始2.bmp"
+IDB_BITMAPAGAIN1        BITMAP  DISCARDABLE     "res\\重新开始1.bmp"
+IDB_BITMAPMUSICON       BITMAP  DISCARDABLE     "res\\音乐开.bmp"
+IDB_BITMAPREGRET1       BITMAP  DISCARDABLE     "res\\悔棋1.bmp"
+IDB_BITMAPEXIT2         BITMAP  DISCARDABLE     "res\\退出游戏2.bmp"
+IDB_BITMAPEXIT1         BITMAP  DISCARDABLE     "res\\退出游戏1.bmp"
+IDB_BITMAPREGRET2       BITMAP  DISCARDABLE     "res\\悔棋2.bmp"
+IDB_BITMAPMAINBG        BITMAP  DISCARDABLE     "res\\flat-02.bmp"
+IDB_BITMAPWHITE         BITMAP  DISCARDABLE     "res\\White.bmp"
+IDB_BITMAPBLACK         BITMAP  DISCARDABLE     "res\\Black.bmp"
+IDB_BITMAPLOSE          BITMAP  DISCARDABLE     "res\\Lose.bmp"
+IDB_BITMAPWIN           BITMAP  DISCARDABLE     "res\\Win.bmp"
+IDB_BITMAPBTNWINLOSE    BITMAP  DISCARDABLE     "res\\BTNWINLOSE.bmp"
+IDB_BITMAPSINGLE1       BITMAP  DISCARDABLE     "res\\单人模式1.bmp"
+IDB_BITMAPCONNECT2      BITMAP  DISCARDABLE     "res\\连接服务器2.bmp"
+IDB_BITMAPCONNECT1      BITMAP  DISCARDABLE     "res\\连接服务器.bmp"
+IDB_BITMAPCREATE2       BITMAP  DISCARDABLE     "res\\创建服务器2.bmp"
+IDB_BITMAPCREATE1       BITMAP  DISCARDABLE     "res\\创建服务器1.bmp"
+IDB_BITMAPDOUBLE2       BITMAP  DISCARDABLE     "res\\双人模式2.bmp"
+IDB_BITMAPDOUBLE1       BITMAP  DISCARDABLE     "res\\双人模式1.bmp"
+IDB_BITMAPSINGLE2       BITMAP  DISCARDABLE     "res\\单人模式2.bmp"
+IDB_BITMAPGAMECHOOSE    BITMAP  DISCARDABLE     "res\\gamechoosebg.bmp"
+IDB_BITMAPSEND2         BITMAP  DISCARDABLE     "res\\发送2.bmp"
+IDB_BITMAPSEND1         BITMAP  DISCARDABLE     "res\\发送1.bmp"
+IDB_BITMAPLOGINBTN1     BITMAP  DISCARDABLE     "res\\go2.bmp"
+IDB_BITMAPLOGINBTN2     BITMAP  DISCARDABLE     "res\\go1.bmp"
+IDB_BITMAPTIPBTN4       BITMAP  DISCARDABLE     "res\\tipbtn4.bmp"
+IDB_BITMAPTIPBTN3       BITMAP  DISCARDABLE     "res\\tipbtn3.bmp"
+IDB_BITMAPTIPBTN2       BITMAP  DISCARDABLE     "res\\tipbtn2.bmp"
+IDB_BITMAPTIPBTN1       BITMAP  DISCARDABLE     "res\\tipbtn1.bmp"
+IDB_BITMAPZAILAI        BITMAP  DISCARDABLE     "res\\截图01.bmp"
+IDB_BITMAPHUIQI         BITMAP  DISCARDABLE     "res\\截图00.bmp"
+IDB_BITMAPBOARD         BITMAP  DISCARDABLE     "res\\Board.bmp"
+IDB_BITMAPLOGINBG       BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_BITMAPEXITGAME      BITMAP  DISCARDABLE     "res\\EXITGAME.bmp"
+IDB_BITMAPEXITLOG       BITMAP  DISCARDABLE     "res\\reg (2).bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 FiveInLine(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\FiveInLine.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
