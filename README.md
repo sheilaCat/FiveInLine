@@ -1,14 +1,24 @@
 # FiveInLine
 
+One five-in-live game made with MFC.
+
+UI is Altman vs. the little monster. Hope you like it.
+
 五子棋
 
 使用语言：C++
 
 开发工具：MFC
 
-![C++五子棋][1]
+# Preview
 
-[1]: http://image17-c.poco.cn/mypoco/myphoto/20150509/10/5637852220150509101310056.jpg?1024x739_120
+## mode-choosing page:
+![mode](https://github.com/sheilaCat/FiveInLine/blob/master/preview/gamechoosebg.jpg?raw=true)
+
+## gaming page:
+![game](https://github.com/sheilaCat/FiveInLine/blob/master/preview/flat-02.jpg?raw=true)
+
+
 
 ========================================================================
        MICROSOFT FOUNDATION CLASS LIBRARY : FiveInLine
