@@ -1,6 +1,6 @@
 # FiveInLine
 
-One five-in-live game made with MFC.
+One five-in-line game made with MFC.
 
 UI is Altman vs. the little monster. Hope you like it.
 
